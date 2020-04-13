@@ -1,0 +1,310 @@
+
+
+html,body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+body     {
+    background: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+header   {
+    background: #222;
+    color: #FFF;
+    padding: 20px 30px;
+    height:50px;
+    position:fixed;
+    width:100%;
+
+}
+/* logo and name of website */
+#logo {
+    width:60px;
+    height:60px;
+    text-decoration:none;
+}
+
+#logo img {
+    vertical-align:middle;
+}
+
+#logo span {
+    display: inline-block;
+    text-decoration:none;
+    color: white;
+}
+
+/* navigation panel */
+nav {
+    text-align:right;
+    width:65%;
+    min-width:50%;
+    display:inline-block;
+}
+
+nav ul   {
+    list-style: none;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a:link {
+    color:white;
+    text-decoration:none;
+    display:block;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+nav ul li a:visited {
+    color:white;
+    text-decoration:none;
+    display:block;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    background: #444;
+    
+}
+
+nav ul li a:active {
+    background: #444;
+}
+
+/* background  */
+.background{
+    background-image: url("tlo.jpg");
+    background-size:cover;
+    min-height: 660px;
+    text-align: center;
+    margin-top:0px;
+}
+
+.background-content{
+    color: black;
+    padding-top: 120px;
+    font-size:40px;
+    font-weight:bold;
+}
+
+/* szybki kontakt itp. */
+.contact {
+    margin-top:0px;
+    min-width:900px;
+    max-height:250px;
+    height:250px;
+    
+
+}
+
+.contact div.n1 {
+    background-color:#222;
+    color:white;
+    display:block;
+    width:50%;
+    float:left;
+    text-align:center;
+}
+
+.contact div.n1 h2{
+    font-size:30px;
+}
+
+.contact div.n1 h3{
+    font-size:20px;
+}
+
+.contact div.n1 p{
+    font-size:20px;
+}
+
+
+
+.contact div.n2 {
+    background-color:#C0C0C0;
+    color:black;
+    display:inline-block;
+    width:50%;
+    float:left;
+    text-align:center;
+}
+
+.contact div.n2 h2{
+    font-size:30px;
+}
+
+.contact div.n2 h3{
+    font-size:20px;
+}
+.contact div.n2 p{
+    font-size:20px;
+}
+
+/* instruktion  */
+
+.map {
+    margin-top:0px;
+    min-width:900px;
+    max-height:50px;
+    height:50px;
+    margin-left:55px;
+}
+.map div.m1 {
+    background-color:white;
+    color:black;
+    display:inline-block;
+    width:30%;
+    height:30%;
+    
+    float:left;
+    text-align:center;
+    padding:0px 15px 15px 15px;
+
+}
+
+.map div.m1 img {
+    width:80px;
+    height:80px;
+    margin-top:40px;
+}
+
+.map div.m2 {
+    background-color:white;
+    color:black;
+    display:inline-block;
+    width:30%;
+    height:30%;
+    float:left;
+    
+    
+    text-align:center;
+    padding:0px 15px 15px 15px;
+    
+}
+.map div.m2 img {
+    width:80px;
+    height:80px;
+    margin-top:40px;
+}
+
+.map div.m3 {
+    background-color:white;
+    color:black;
+    display:inline-block;
+    width:30%;
+    height:30%;
+    float:left;
+
+    text-align:center;
+    padding:0px 15px 15px 15px;
+    
+}
+.map div.m3 img {
+    width:80px;
+    height:80px;
+    margin-top:40px;
+}
+
+.offer{
+    text-align:center;
+    margin-top:300px;
+    
+}
+
+.offer div.offer1 {
+    color:white;
+    background-color:#222;
+    height:450px;
+    
+
+}
+
+.offer div.offer1 h2 {
+    font-size:50px;
+    padding-top:50px;
+    
+}
+.offer div.offer1 p {
+    text-align:justify;
+    width:400px;
+    margin:0px auto;
+}
+
+.offer div.offer2 {
+    background-color:white;
+    color:black;
+    height:400px;
+    
+    
+}
+.offer div.offer2 h2 {
+    font-size:50px;
+    
+}
+.offer div.offer2 p {
+    text-align:justify;
+    width:400px;
+    margin:0px auto;
+}
+
+
+.offer div.offer3 {
+    background-color:#222;
+    color:white;
+    height:450px;
+    
+}
+
+.offer div.offer3 h2 {
+    font-size:50px;
+    padding-top:50px;
+    
+}
+.offer div.offer3 p {
+    text-align:justify;
+    width:400px;
+    margin:0px auto;
+}
+
+.offer div.offer4 {
+    background-color:white;
+    color:black;
+    height:450px;
+
+    
+}
+
+.offer div.offer4 h2 {
+    font-size:50px;
+    
+}
+.offer div.offer4 p {
+    text-align:justify;
+    width:400px;
+    margin:0px auto;
+}
+
+footer{
+    background-color:#222;
+    color:white;
+    text-align:center;
+    padding: 20px 0px;
+    
+}
+footer span {
+
+}
+    
+
+
+
+
